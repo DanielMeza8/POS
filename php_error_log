@@ -270,3 +270,4 @@ Stack trace:
 #6 C:\laragon\www\pos\index.php(22): ControladorPlantilla::ctrPlantilla()
 #7 {main}
   thrown in C:\laragon\www\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 291
+[05-Dec-2023 14:55:01 UTC] PHP Parse error:  syntax error, unexpected token "class", expecting "," or ";" in C:\laragon\www\pos\vistas\modulos\ventas.php on line 168

@@ -159,13 +159,7 @@ if($xml){
 
                     <div class="btn-group">
 
-                      <a class="btn btn-success" href="index.php?ruta=ventas&xml='.$value["codigo"].'">xml</a>
-                        
-                      <button class="btn btn-info btnImprimirFactura" codigoVenta="'.$value["codigo"].'">
-
-                        <i class="fa fa-print"></i>
-
-                      </button>';
+                      <a class="btn btn-success" href="index.php?ruta=ventas&xml='.$value["codigo"].'">xml</a>';
 
                       if($_SESSION["perfil"] == "Administrador"){
 
@@ -185,7 +179,12 @@ if($xml){
         ?>
                
         </tbody>
+<!-- 
+        <button class="btn btn-info btnImprimirFactura" codigoVenta="'.$value["codigo"].'">
 
+                        <i class="fa fa-print"></i>
+
+                      </button> -->
        </table>
 
        <?php

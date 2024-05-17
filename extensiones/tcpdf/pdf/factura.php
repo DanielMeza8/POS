@@ -29,7 +29,7 @@ $fecha = substr($respuestaVenta["fecha"],0,-8);
 $productos = json_decode($respuestaVenta["productos"], true);
 $neto = number_format($respuestaVenta["neto"],2);
 $impuesto = number_format($respuestaVenta["impuesto"],2);
-$total = number_format($respuestaVenta["total"],2);
+$total = number_format($respuestaVenta["total"],2);  
 
 //TRAEMOS LA INFORMACIÓN DEL CLIENTE
 
